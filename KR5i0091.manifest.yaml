@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR5i0091/v1
+canonical_location: https://kanripo.org/bkk/KR5i0091/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 太上玄門功課經
+  identifiers:
+    alt_id:
+    - JY263
+  date: '2015-08-29 17:58:58.848599'
+  source:
+    repository: kanripo
+    path: KR5i0091
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  base_edition: CK-KZ
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: CK-KZ
+  label: 【重刊道藏輯要】
+- short: CK-KZ-jye
+- short: KR5i0091
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0091_001.yaml, hash: 'sha256:b11eb1653997e7877fc12b1325c56814f925e1d1fac2aee80ba9c4cb956f887a'}
+  - {seq: 2, filename: KR5i0091_002.yaml, hash: 'sha256:6cd1b03227ea45c8b22f3a22e0f0e1f296437bdae2f1e8d9f44eda2eaffd3834'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0091_001.markers.yaml, hash: 'sha256:3ba2d7ad7ef675cf6cd966d03842077c28e344a2f50bbf4e1c3c935b7fe5e026'}
+  - {seq: 2, role: markers, filename: assets/KR5i0091_002.markers.yaml, hash: 'sha256:47704ba1558bafa957bfe7c8df99038a6bec8330f4f7db66e3e95215f5d266b5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0091_01p001a
+    span:
+    - body
+    - 0
+    - 5478
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0091_02p001a
+    span:
+    - body
+    - 0
+    - 5301
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:d8d05a45d7a0d9931124f356e0b9b61bb997ae1b2d2bc734de395f64a717fa7f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

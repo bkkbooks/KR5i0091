@@ -1,0 +1,49 @@
+canonical_identifier: bkk:krp/KR5i0091/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0091/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上玄門功課經
+  date: '2015-08-29 17:58:58.848599'
+  source:
+    repository: kanripo
+    path: KR5i0091
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0091_001-CK-KZ.yaml, hash: 'sha256:f88219083b2e212ddf1bc424868f3916f889e0395312b93fd01583a470165884'}
+  - {seq: 2, filename: KR5i0091_002-CK-KZ.yaml, hash: 'sha256:e65aa3bab6b11d538e5a82f28c3e8489d68d096dbe5735612330e6c97d40c634'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0091_001-CK-KZ.markers.yaml, hash: 'sha256:7083fe913bdf9245ecc673ed59fbddd4db48b3b402f13109c9fda6b390c021da'}
+  - {seq: 2, role: markers, filename: assets/KR5i0091_002-CK-KZ.markers.yaml, hash: 'sha256:32532a13a748dbd2580eed5f0fc541ecac1a54b143e71ab6d3793e28e30fbf87'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0091_01p001a
+    span:
+    - body
+    - 0
+    - 5478
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0091_02p001a
+    span:
+    - body
+    - 0
+    - 5301
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:ea362450f7d087465a5203aaad6e2f4a76f56e0c9417a38ae554d79074201112
